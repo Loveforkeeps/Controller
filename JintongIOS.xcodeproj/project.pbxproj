@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD9331A61B355D3500D36E95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9331A51B355D3500D36E95 /* main.m */; };
+		BD9331A91B355D3500D36E95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9331A81B355D3500D36E95 /* AppDelegate.m */; };
+		BD9331AC1B355D3500D36E95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9331AB1B355D3500D36E95 /* ViewController.m */; };
+		BD9331AF1B355D3500D36E95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD9331AD1B355D3500D36E95 /* Main.storyboard */; };
+		BD9331B41B355D3500D36E95 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD9331B21B355D3500D36E95 /* LaunchScreen.xib */; };
+		BD9331C01B355D3500D36E95 /* JintongIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9331BF1B355D3500D36E95 /* JintongIOSTests.m */; };
+		BD9331CE1B3570B500D36E95 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9331CD1B3570B500D36E95 /* Images.xcassets */; };
+		BD9331D21B357E3700D36E95 /* 标题.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BD9331D11B357E3700D36E95 /* 标题.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD9331BA1B355D3500D36E95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD9331981B355D3500D36E95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD93319F1B355D3500D36E95;
+			remoteInfo = JintongIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD9331A01B355D3500D36E95 /* JintongIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JintongIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD9331A41B355D3500D36E95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD9331A51B355D3500D36E95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD9331A71B355D3500D36E95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD9331A81B355D3500D36E95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD9331AA1B355D3500D36E95 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD9331AB1B355D3500D36E95 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD9331AE1B355D3500D36E95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD9331B31B355D3500D36E95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BD9331B91B355D3500D36E95 /* JintongIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JintongIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD9331BE1B355D3500D36E95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD9331BF1B355D3500D36E95 /* JintongIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JintongIOSTests.m; sourceTree = "<group>"; };
+		BD9331CD1B3570B500D36E95 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BD9331D11B357E3700D36E95 /* 标题.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "标题.jpeg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD93319D1B355D3500D36E95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD9331B61B355D3500D36E95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD9331971B355D3500D36E95 = {
+			isa = PBXGroup;
+			children = (
+				BD9331A21B355D3500D36E95 /* JintongIOS */,
+				BD9331BC1B355D3500D36E95 /* JintongIOSTests */,
+				BD9331A11B355D3500D36E95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD9331A11B355D3500D36E95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD9331A01B355D3500D36E95 /* JintongIOS.app */,
+				BD9331B91B355D3500D36E95 /* JintongIOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD9331A21B355D3500D36E95 /* JintongIOS */ = {
+			isa = PBXGroup;
+			children = (
+				BD9331A71B355D3500D36E95 /* AppDelegate.h */,
+				BD9331A81B355D3500D36E95 /* AppDelegate.m */,
+				BD9331AA1B355D3500D36E95 /* ViewController.h */,
+				BD9331AB1B355D3500D36E95 /* ViewController.m */,
+				BD9331AD1B355D3500D36E95 /* Main.storyboard */,
+				BD9331B21B355D3500D36E95 /* LaunchScreen.xib */,
+				BD9331CD1B3570B500D36E95 /* Images.xcassets */,
+				BD9331A31B355D3500D36E95 /* Supporting Files */,
+			);
+			path = JintongIOS;
+			sourceTree = "<group>";
+		};
+		BD9331A31B355D3500D36E95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD9331A41B355D3500D36E95 /* Info.plist */,
+				BD9331D11B357E3700D36E95 /* 标题.jpeg */,
+				BD9331A51B355D3500D36E95 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD9331BC1B355D3500D36E95 /* JintongIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD9331BF1B355D3500D36E95 /* JintongIOSTests.m */,
+				BD9331BD1B355D3500D36E95 /* Supporting Files */,
+			);
+			path = JintongIOSTests;
+			sourceTree = "<group>";
+		};
+		BD9331BD1B355D3500D36E95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD9331BE1B355D3500D36E95 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD93319F1B355D3500D36E95 /* JintongIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD9331C31B355D3500D36E95 /* Build configuration list for PBXNativeTarget "JintongIOS" */;
+			buildPhases = (
+				BD93319C1B355D3500D36E95 /* Sources */,
+				BD93319D1B355D3500D36E95 /* Frameworks */,
+				BD93319E1B355D3500D36E95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JintongIOS;
+			productName = JintongIOS;
+			productReference = BD9331A01B355D3500D36E95 /* JintongIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD9331B81B355D3500D36E95 /* JintongIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD9331C61B355D3500D36E95 /* Build configuration list for PBXNativeTarget "JintongIOSTests" */;
+			buildPhases = (
+				BD9331B51B355D3500D36E95 /* Sources */,
+				BD9331B61B355D3500D36E95 /* Frameworks */,
+				BD9331B71B355D3500D36E95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD9331BB1B355D3500D36E95 /* PBXTargetDependency */,
+			);
+			name = JintongIOSTests;
+			productName = JintongIOSTests;
+			productReference = BD9331B91B355D3500D36E95 /* JintongIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD9331981B355D3500D36E95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "EMo‘s mac ";
+				TargetAttributes = {
+					BD93319F1B355D3500D36E95 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					BD9331B81B355D3500D36E95 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = BD93319F1B355D3500D36E95;
+					};
+				};
+			};
+			buildConfigurationList = BD93319B1B355D3500D36E95 /* Build configuration list for PBXProject "JintongIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD9331971B355D3500D36E95;
+			productRefGroup = BD9331A11B355D3500D36E95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD93319F1B355D3500D36E95 /* JintongIOS */,
+				BD9331B81B355D3500D36E95 /* JintongIOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD93319E1B355D3500D36E95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD9331CE1B3570B500D36E95 /* Images.xcassets in Resources */,
+				BD9331AF1B355D3500D36E95 /* Main.storyboard in Resources */,
+				BD9331D21B357E3700D36E95 /* 标题.jpeg in Resources */,
+				BD9331B41B355D3500D36E95 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD9331B71B355D3500D36E95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD93319C1B355D3500D36E95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD9331AC1B355D3500D36E95 /* ViewController.m in Sources */,
+				BD9331A91B355D3500D36E95 /* AppDelegate.m in Sources */,
+				BD9331A61B355D3500D36E95 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD9331B51B355D3500D36E95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD9331C01B355D3500D36E95 /* JintongIOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD9331BB1B355D3500D36E95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD93319F1B355D3500D36E95 /* JintongIOS */;
+			targetProxy = BD9331BA1B355D3500D36E95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD9331AD1B355D3500D36E95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD9331AE1B355D3500D36E95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD9331B21B355D3500D36E95 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD9331B31B355D3500D36E95 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD9331C11B355D3500D36E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD9331C21B355D3500D36E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD9331C41B355D3500D36E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = JintongIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD9331C51B355D3500D36E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = JintongIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD9331C71B355D3500D36E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JintongIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JintongIOS.app/JintongIOS";
+			};
+			name = Debug;
+		};
+		BD9331C81B355D3500D36E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JintongIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JintongIOS.app/JintongIOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD93319B1B355D3500D36E95 /* Build configuration list for PBXProject "JintongIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD9331C11B355D3500D36E95 /* Debug */,
+				BD9331C21B355D3500D36E95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD9331C31B355D3500D36E95 /* Build configuration list for PBXNativeTarget "JintongIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD9331C41B355D3500D36E95 /* Debug */,
+				BD9331C51B355D3500D36E95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD9331C61B355D3500D36E95 /* Build configuration list for PBXNativeTarget "JintongIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD9331C71B355D3500D36E95 /* Debug */,
+				BD9331C81B355D3500D36E95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD9331981B355D3500D36E95 /* Project object */;
+}
